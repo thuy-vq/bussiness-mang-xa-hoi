@@ -1,12 +1,12 @@
-import React, { useContext, useEffect } from 'react';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import ProductProvider from 'components/app/e-commerce/ProductProvider';
 import Dashboard from 'components/dashboards/default';
+import Footer from 'components/footer/Footer';
 import NavbarTop from 'components/navbar/top/NavbarTop';
 import NavbarVertical from 'components/navbar/vertical/NavbarVertical';
 import AppContext from 'context/Context';
+import React, { useContext, useEffect } from 'react';
+import { Route, Switch, useLocation } from 'react-router-dom';
 import MainRoutes from './MainRoutes';
-import Footer from 'components/footer/Footer';
-import ProductProvider from 'components/app/e-commerce/ProductProvider';
 
 const MainLayout = () => {
   const { hash, pathname } = useLocation();

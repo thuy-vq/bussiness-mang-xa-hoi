@@ -1,0 +1,59 @@
+/* 
+- Please follow this tool to name your color, then please define the color in src/common-types/ui.ts also
+  https://chir.ag/projects/name-that-color/#6195ED
+
+- If colors same name, please add suffix. Ex: persian-blue, persian-blue-dark, persian-blue-light, ...
+*/
+
+$white: #ffffff;
+$alabaster: #fafafa;
+$catskill-white: #f1f5f9;
+$geyser: #dee2e6;
+$ghost: #ced4da;
+
+$black: #000000;
+$black-12alpha: rgba($black, 0.12);
+$black-20alpha: rgba($black, 0.2);
+$black-30alpha: rgba($black, 0.3);
+$black-35alpha: rgba($black, 0.35);
+
+$gray: #808080;
+
+$persian-blue: #1c37c2;
+$persian-blue-20alpha: rgba($persian-blue, 0.2);
+$persian-blue-dark: #1f1cc2;
+$blumine: #205b7e;
+$blumine-30alpha: rgba($blumine, 0.3);
+$st-tropaz: #265c82;
+$dodge-blue: #2196f3;
+$malibu: #62a1ff;
+$sail: #a6d5fa;
+$perano: #aaccf5;
+
+$valencia: #d74545;
+$milano-red: #a70a06;
+
+$red: #d32f2f;
+
+$tree-poppy: #f9941f;
+
+$amber: #ffbf00;
+$lightning-yellow: #fbc02d;
+
+$fuchsia-blue: #795cbe;
+
+$primary: #000b72;
+
+//Social Color
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkedin: #3371b7;
+$pinterest: #c92619;
+$youtube: #e02a20;
+$border: rgba(0, 0, 0, 0.12);
+$bgFooter: #1f1f1f;
+$gallery: #f0f0f0;
+$link: #2ea3f2;
+$grayText: #666666;
+
+$warning: #ed6c02;
